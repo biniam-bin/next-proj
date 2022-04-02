@@ -164,7 +164,7 @@ export default function Home() {
             <div className="display w-full bg-gren-600 bg-gray-50 flex flex-wrap">
               {data.products?.map((c) => {
                 return (
-                  <Card name={c.name} price={c.price} img={ c.images[0].url}/>
+                  <Card key={c.name} name={c.name} price={c.price} img={ c.images[0].url}/>
                 )
               })}
             </div>
