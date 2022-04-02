@@ -24,7 +24,7 @@ export default function Home() {
 
   return (
     <div className="overflow-y-clip  overscroll-none">
-      <div className="sticky top-0 left0 bg-gray00 h-screen flex overflow-y-clip z-50 w-full bg-transparent-700 bg-gradient-to-l from-gray-100 to-transparent">
+      {/* <div className="sticky top-0 left0 bg-gray00 h-screen flex overflow-y-clip z-50 w-full bg-transparent-700 bg-gradient-to-l from-gray-100 to-transparent">
         <div className="free-space w-2/5 h-full"></div>
         <div className="right-side-bar w-3/5 bg-white z-60 h-full">
           <div className="header ">
@@ -66,7 +66,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
       <div className="nav w-full h-20 px-6 flex justify-between shadow-md">
         <div className="logo-section flex">
           <Image className="h-2 w-full" width="110" height="110" src="/Icons/logo.svg" />
